@@ -29,18 +29,36 @@ const Footer: React.FC = () => {
 
       {/* Marquee Section */}
       <div className="relative z-10 w-full mb-12 overflow-hidden py-6 border-y border-white/5 bg-white/[0.02]">
-        <motion.div
-          animate={{ x: [0, -1000] }}
-          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-          className="flex whitespace-nowrap gap-8 items-center"
-        >
-          {[...Array(10)].map((_, i) => (
-            <div key={i} className="flex gap-8 items-center">
-              <span className="text-3xl font-black uppercase tracking-tighter text-blue-600">KELOMPOK 19 - LKM INFORMATIKA 2026</span>
-              <span className="text-3xl text-white/10">•</span>
+        <div className="flex overflow-hidden">
+          <motion.div
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+            className="flex whitespace-nowrap items-center will-change-transform"
+          >
+            {/* First Set */}
+            <div className="flex items-center">
+              {[...Array(10)].map((_, i) => (
+                <div key={`set1-${i}`} className="flex items-center">
+                  <span className="text-3xl font-black uppercase tracking-tighter text-blue-600">
+                    KELOMPOK 19 - LKM INFORMATIKA 2026
+                  </span>
+                  <span className="text-3xl text-white/10 mx-12">•</span>
+                </div>
+              ))}
             </div>
-          ))}
-        </motion.div>
+            {/* Second Identical Set for Seamless Loop */}
+            <div className="flex items-center">
+              {[...Array(10)].map((_, i) => (
+                <div key={`set2-${i}`} className="flex items-center">
+                  <span className="text-3xl font-black uppercase tracking-tighter text-blue-600">
+                    KELOMPOK 19 - LKM INFORMATIKA 2026
+                  </span>
+                  <span className="text-3xl text-white/10 mx-12">•</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -49,14 +67,14 @@ const Footer: React.FC = () => {
 
           {/* Navigation Column */}
           <div className="flex flex-col items-center md:items-start">
-            <span className="text-[13px] uppercase tracking-widest text-slate-500 font-bold mb-4">PAGES</span>
-            <div className="flex flex-col gap-2">
+            <span className="text-[13px] uppercase tracking-widest text-slate-500 font-bold mb-4 text-center md:text-left">PAGES</span>
+            <div className="flex flex-col items-center md:items-start gap-2">
               {pages.map((item) => (
                 <ScrollReveal key={item.path}>
                   <RollingText
                     to={item.path}
                     text={item.name}
-                    className="text-3xl font-black uppercase leading-none hover:text-blue-500 transition-colors"
+                    className="text-3xl font-black uppercase leading-none hover:text-blue-500 transition-colors text-center"
                   />
                 </ScrollReveal>
               ))}
@@ -65,7 +83,7 @@ const Footer: React.FC = () => {
 
           {/* Connect Column */}
           <div className="flex flex-col items-center md:items-start lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="flex items-center justify-center md:justify-start space-x-3 mb-4">
               <span className="text-[13px] uppercase tracking-widest text-slate-500 font-bold">CONNECT WITH US</span>
               <svg
                 width="14"
@@ -82,13 +100,13 @@ const Footer: React.FC = () => {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-2 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-2 w-full justify-items-center sm:justify-items-start">
               {members.map((member) => (
-                <ScrollReveal key={member.id} width="100%">
+                <ScrollReveal key={member.id} width="fit-content">
                   <RollingText
                     href={member.linkedin}
                     text={member.name}
-                    className="text-lg md:text-xl font-bold uppercase leading-tight hover:text-blue-500 transition-colors tracking-tight"
+                    className="text-lg md:text-xl font-bold uppercase leading-tight hover:text-blue-500 transition-colors tracking-tight text-center sm:text-left"
                   />
                 </ScrollReveal>
               ))}

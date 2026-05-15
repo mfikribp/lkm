@@ -38,21 +38,21 @@ const Materi: React.FC = () => {
             Kumpulan materi Latihan Kepemimpinan Mahasiswa Informatika 2026.
           </motion.p>
         </div>
-        <div className="flex bg-white/5 p-1 rounded-xl border border-white/10">
+        <div className="flex bg-white/[0.03] p-1 rounded-full border border-white/5 w-fit">
           <button
             onClick={() => setFilter('all')}
-            className={`px-6 py-2 rounded-lg font-black uppercase text-[10px] tracking-widest transition-all ${filter === 'all'
-              ? 'bg-blue-600 text-white'
-              : 'text-slate-400 hover:text-slate-100'
+            className={`px-8 py-2.5 rounded-full font-black uppercase text-[10px] tracking-widest transition-all duration-300 ${filter === 'all'
+              ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20'
+              : 'text-slate-500 hover:text-slate-100'
               }`}
           >
             Semua
           </button>
           <button
             onClick={() => setFilter('latest')}
-            className={`px-6 py-2 rounded-lg font-black uppercase text-[10px] tracking-widest transition-all ${filter === 'latest'
-              ? 'bg-blue-600 text-white'
-              : 'text-slate-400 hover:text-slate-100'
+            className={`px-8 py-2.5 rounded-full font-black uppercase text-[10px] tracking-widest transition-all duration-300 ${filter === 'latest'
+              ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20'
+              : 'text-slate-500 hover:text-slate-100'
               }`}
           >
             Terbaru
@@ -61,7 +61,7 @@ const Materi: React.FC = () => {
       </div>
 
       <div className="space-y-6">
-        <AnimatePresence mode="popLayout">
+        <AnimatePresence>
           {displayedMaterials.map((material) => (
             <motion.div
               key={material.id}

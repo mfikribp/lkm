@@ -21,7 +21,7 @@ const RollingText: React.FC<RollingTextProps> = ({ text = '', className = '', to
       whileHover="hovered"
     >
       {characters.map((char, i) => (
-        <div key={i} className="relative inline-block overflow-hidden h-[1.5em]">
+        <div key={i} className="relative flex items-center overflow-hidden leading-none">
           {/* Top character */}
           <motion.span
             variants={{
@@ -33,8 +33,7 @@ const RollingText: React.FC<RollingTextProps> = ({ text = '', className = '', to
               ease: [0.215, 0.61, 0.355, 1],
               delay: i * 0.02,
             }}
-            className="inline-block"
-            style={{ lineHeight: '1.5' }}
+            className="flex items-center"
           >
             {char === ' ' ? '\u00A0' : char}
           </motion.span>
@@ -50,8 +49,7 @@ const RollingText: React.FC<RollingTextProps> = ({ text = '', className = '', to
               ease: [0.215, 0.61, 0.355, 1],
               delay: i * 0.02,
             }}
-            className="absolute left-0 top-0 inline-block"
-            style={{ lineHeight: '1.5' }}
+            className="absolute left-0 top-0 flex items-center h-full"
           >
             {char === ' ' ? '\u00A0' : char}
           </motion.span>
@@ -62,11 +60,9 @@ const RollingText: React.FC<RollingTextProps> = ({ text = '', className = '', to
 
   if (to) {
     return (
-      <motion.div initial="initial" whileHover="hovered">
-        <Link to={to} className={containerClasses}>
-          {content}
-        </Link>
-      </motion.div>
+      <Link to={to} className={containerClasses}>
+        {content}
+      </Link>
     );
   }
 
