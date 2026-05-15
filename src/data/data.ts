@@ -37,11 +37,11 @@ export const members: Member[] = [
   },
   {
     id: '4',
-    name: 'Muhammad Faishal Akrom ',
+    name: 'Dafa Zahran',
     role: 'Anggota',
-    nim: '257006111079',
-    photo: akromImg,
-    linkedin: 'https://www.linkedin.com/in/faishal-akrom-009452361?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+    nim: '257006111188',
+    photo: dafaImg,
+    linkedin: 'https://www.linkedin.com/in/dafazahrann/',
   },
   {
     id: '5',
@@ -61,11 +61,11 @@ export const members: Member[] = [
   },
   {
     id: '7',
-    name: 'Dafa Zahran',
+    name: 'Muhammad Faishal Akrom ',
     role: 'Anggota',
-    nim: '257006111188',
-    photo: dafaImg,
-    linkedin: 'https://www.linkedin.com/in/dafazahrann/',
+    nim: '257006111079',
+    photo: akromImg,
+    linkedin: 'https://www.linkedin.com/in/faishal-akrom-009452361?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   },
   {
     id: '8',
