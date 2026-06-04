@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { members } from '../data/data';
 import MemberCard from '../components/MemberCard';
 import { motion, AnimatePresence } from 'framer-motion';
+=======
+import React, { useState, useEffect } from 'react';
+import { members } from '../data/data';
+import MemberCard from '../components/MemberCard';
+import { motion, AnimatePresence } from 'framer-motion';
+import { IdCard, ChevronDown } from 'lucide-react';
+>>>>>>> f1c6058f30e26912c031b8218dc4b59b785218de
 
 const Anggota: React.FC = () => {
   const [expandedId, setExpandedId] = useState<string | null>(null);
