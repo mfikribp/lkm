@@ -102,21 +102,21 @@ export const materials: Material[] = [
     content: `Analisis dan Pengembangan Masyarakat (APM) merupakan sebuah metodologi strategis yang digunakan untuk menciptakan perubahan sosial yang positif dan terukur.
 
 1. Filosofi dan Pengertian Dasar
-a. Analisis Masyarakat: Merupakan proses diagnostik untuk membedah secara mendalam struktur sosial, mengidentifikasi masalah inti, serta memetakan kebutuhan nyata yang ada di lapangan.
-b. Pengembangan Masyarakat: Adalah aksi nyata berupa proses-proses terencana yang bertujuan untuk meningkatkan kualitas hidup masyarakat melalui pelibatan aktif warga sebagai subjek pembangunan.
+   • Analisis Masyarakat: Merupakan proses diagnostik untuk membedah secara mendalam struktur sosial, mengidentifikasi masalah inti, serta memetakan kebutuhan nyata yang ada di lapangan.
+   • Pengembangan Masyarakat: Adalah aksi nyata berupa proses-proses terencana yang bertujuan untuk meningkatkan kualitas hidup masyarakat melalui pelibatan aktif warga sebagai subjek pembangunan.
 
 2. Tinjauan Perspektif Organisasi
-Dalam menjalankan APM, organisasi harus mengikuti siklus manajemen yang disiplin agar program tepat sasaran:
-a. Perumusan: Tahap awal merancang strategi dan program berdasarkan data mentah hasil analisis.
-b. Implementasi: Pelaksanaan program di lapangan dengan mengedepankan kolaborasi.
-c. Evaluasi: Menilai sejauh mana program berdampak dan apa saja yang perlu diperbaiki untuk masa depan.
+   Dalam menjalankan APM, organisasi harus mengikuti siklus manajemen yang disiplin agar program tepat sasaran:
+   • Perumusan: Tahap awal merancang strategi dan program berdasarkan data mentah hasil analisis.
+   • Implementasi: Pelaksanaan program di lapangan dengan mengedepankan kolaborasi.
+   • Evaluasi: Menilai sejauh mana program berdampak dan apa saja yang perlu diperbaiki untuk masa depan.
 
 3. Tujuan Strategis Pemberdayaan
-Tujuan akhir dari APM bukan sekadar memberi bantuan, melainkan membangun ekosistem yang tangguh:
-a. Kemandirian (Self-Reliance): Mendorong masyarakat agar mampu berdiri di atas kaki sendiri dan tidak bergantung pada pihak luar.
-b. Peningkatan Kesejahteraan: Membuka jalan bagi akses yang lebih baik terhadap sektor ekonomi, kesehatan, dan pendidikan.
-c. Optimasi Potensi Lokal: Mengidentifikasi dan mengelola kekayaan Sumber Daya Manusia (SDM) serta Sumber Daya Alam (SDA) secara maksimal.
-d. Keadilan Sosial: Berupaya mengurangi kesenjangan sosial agar manfaat pembangunan dapat dirasakan secara merata.`
+   Tujuan akhir dari APM bukan sekadar memberi bantuan, melainkan membangun ekosistem yang tangguh:
+   • Kemandirian (Self-Reliance): Mendorong masyarakat agar mampu berdiri di atas kaki sendiri dan tidak bergantung pada pihak luar.
+   • Peningkatan Kesejahteraan: Membuka jalan bagi akses yang lebih baik terhadap sektor ekonomi, kesehatan, dan pendidikan.
+   • Optimasi Potensi Lokal: Mengidentifikasi dan mengelola kekayaan Sumber Daya Manusia (SDM) serta Sumber Daya Alam (SDA) secara maksimal.
+   • Keadilan Sosial: Berupaya mengurangi kesenjangan sosial agar manfaat pembangunan dapat dirasakan secara merata.`
   },
   {
     id: '2',
@@ -126,17 +126,17 @@ d. Keadilan Sosial: Berupaya mengurangi kesenjangan sosial agar manfaat pembangu
     content: `Dinamika sosial dan politik adalah studi tentang perubahan, pergeseran kekuatan, dan interaksi antar kelompok dalam masyarakat yang dipengaruhi oleh kebijakan, kekuasaan, dan ideologi. Bagi mahasiswa, memahami dinamika ini adalah kunci untuk memetakan posisi strategis dalam melakukan kontrol sosial.
 
 1. Spektrum Ideologi Politik
-Dinamika politik global maupun nasional sering kali bergerak di antara kutub-kutub ideologi yang lahir sejak era Reformasi Prancis:
-a. Ideologi Kiri (Sosialis/Komunis): Menitikberatkan pada konsep kesetaraan (equal) dan peran negara yang kuat dalam menjamin kesejahteraan serta keadilan sosial bagi seluruh rakyat.
-b. Ideologi Kanan (Kapitalis/Liberal): Lebih condong pada kebebasan individu, kompetisi pasar bebas, dan kepatuhan pada aturan yang ada yang kemudian melahirkan kapitalisme.
-c. Posisi Moderat: Berusaha mengambil jalan tengah dengan pandangan yang lebih luas dan seimbang, tidak terjebak pada ekstremitas satu pihak saja.
+   Dinamika politik global maupun nasional sering kali bergerak di antara kutub-kutub ideologi yang lahir sejak era Reformasi Prancis:
+   • Ideologi Kiri (Sosialis/Komunis): Menitikberatkan pada konsep kesetaraan (equal) dan peran negara yang kuat dalam menjamin kesejahteraan serta keadilan sosial bagi seluruh rakyat.
+   • Ideologi Kanan (Kapitalis/Liberal): Lebih condong pada kebebasan individu, kompetisi pasar bebas, dan kepatuhan pada aturan yang ada yang kemudian melahirkan kapitalisme.
+   • Posisi Moderat: Berusaha mengambil jalan tengah dengan pandangan yang lebih luas dan seimbang, tidak terjebak pada ekstremitas satu pihak saja.
 
 2. Tipologi Sikap Mahasiswa yang Ideal
-Di tengah tarik-ulur kepentingan politik, mahasiswa harus memiliki integritas berpikir yang kokoh:
-a. Menghindari Fanatisme Buta: Mahasiswa tidak boleh membela sesuatu secara berlebihan tanpa dasar data yang kuat, karena hal ini akan mematikan kemampuan analisis objektif.
-b. Berpikir Objektif: Mampu melihat sebuah fenomena atau kebijakan dari dua sisi (pro dan kontra) secara adil.
-c. Berpikir Luas (Moderat): Memiliki pemikiran yang jauh ke depan dan tidak mudah terprovokasi oleh isu jangka pendek.
-d. Kritis dan Teliti: Selalu memikirkan matang-matang setiap tindakan dan informasi sebelum mengambil sikap atau keputusan.`
+   Di tengah tarik-ulur kepentingan politik, mahasiswa harus memiliki integritas berpikir yang kokoh:
+   • Menghindari Fanatisme Buta: Mahasiswa tidak boleh membela sesuatu secara berlebihan tanpa dasar data yang kuat, karena hal ini akan mematikan kemampuan analisis objektif.
+   • Berpikir Objektif: Mampu melihat sebuah fenomena atau kebijakan dari dua sisi (pro dan kontra) secara adil.
+   • Berpikir Luas (Moderat): Memiliki pemikiran yang jauh ke depan dan tidak mudah terprovokasi oleh isu jangka pendek.
+   • Kritis dan Teliti: Selalu memikirkan matang-matang setiap tindakan dan informasi sebelum mengambil sikap atau keputusan.`
   },
   {
     id: '3',
@@ -146,16 +146,16 @@ d. Kritis dan Teliti: Selalu memikirkan matang-matang setiap tindakan dan inform
     content: `Manajemen aksi adalah sebuah instrumen atau model penyampaian aspirasi, pendapat, dan tuntutan yang dilakukan oleh massa yang terorganisir. Gerakan ini biasanya muncul sebagai respon ketika jalur dialog formal mengalami kebuntuan atau saat lembaga legislatif dianggap tidak lagi mampu mewakili aspirasi rakyat secara efektif.
 
 1. Tujuan Strategis dan Landasan Hukum
-Setiap aksi yang dilakukan oleh mahasiswa harus memiliki tujuan yang jelas dan pijakan hukum yang kuat:
-a. Tujuan Utama: Memberikan tekanan kepada pembuat keputusan (pemerintah atau lembaga terkait) agar meninjau ulang, mengubah, atau mengeluarkan kebijakan yang lebih berpihak pada kepentingan publik.
-b. Landasan Hukum: Kemerdekaan menyampaikan pendapat di muka umum dijamin oleh konstitusi dan secara spesifik diatur dalam UU No. 9 Tahun 1998.
+   Setiap aksi yang dilakukan oleh mahasiswa harus memiliki tujuan yang jelas dan pijakan hukum yang kuat:
+   • Tujuan Utama: Memberikan tekanan kepada pembuat keputusan (pemerintah atau lembaga terkait) agar meninjau ulang, mengubah, atau mengeluarkan kebijakan yang lebih berpihak pada kepentingan publik.
+   • Landasan Hukum: Kemerdekaan menyampaikan pendapat di muka umum dijamin oleh konstitusi dan secara spesifik diatur dalam UU No. 9 Tahun 1998.
 
 2. Struktur Perangkat Aksi
-Agar aksi berjalan kondusif dan mencapai target, diperlukan pembagian peran yang sistematis:
-a. Korlap (Koordinator Lapangan): Pemegang komando tertinggi yang mengatur ritme dan pergerakan massa.
-b. Orator: Penyambung lidah yang menyampaikan poin-poin tuntutan secara lugas kepada publik.
-c. Negosiator: Tim diplomasi yang bertugas melakukan lobi langsung dengan pihak sasaran atau aparat keamanan.
-d. Agitator: Bertugas menjaga semangat dan emosi massa agar tetap solid selama aksi berlangsung.`
+   Agar aksi berjalan kondusif dan mencapai target, diperlukan pembagian peran yang sistematis:
+   • Korlap (Koordinator Lapangan): Pemegang komando tertinggi yang mengatur ritme dan pergerakan massa.
+   • Orator: Penyambung lidah yang menyampaikan poin-poin tuntutan secara lugas kepada publik.
+   • Negosiator: Tim diplomasi yang bertugas melakukan lobi langsung dengan pihak sasaran atau aparat keamanan.
+   • Agitator: Bertugas menjaga semangat dan emosi massa agar tetap solid selama aksi berlangsung.`
   },
   {
     id: '4',
@@ -165,16 +165,16 @@ d. Agitator: Bertugas menjaga semangat dan emosi massa agar tetap solid selama a
     content: `Pada era reformasi dan keterbukaan informasi saat ini, filosofi kekuasaan telah bergeser. Data telah bertransformasi menjadi "senjata" utama karena kemampuannya dalam menyimpan, mengolah, dan menyebarkan informasi apa pun untuk memengaruhi opini publik maupun kebijakan.
 
 1. Tiga Pilar Utama Otoritas Informasi
-Untuk membangun otoritas yang kredibel, terdapat tiga pilar yang harus ditegakkan:
-a. Struktur: Membangun hierarki informasi yang jelas agar alur data terorganisir.
-b. Validasi: Proses krusial untuk memastikan apakah suatu informasi benar, akurat, dan dapat dipertanggungjawabkan.
-c. Hak Akses: Prinsip bahwa tidak semua informasi bisa diberikan kepada semua orang; harus ada batasan berdasarkan wewenang dan urgensi.
+   Untuk membangun otoritas yang kredibel, terdapat tiga pilar yang harus ditegakkan:
+   • Struktur: Membangun hierarki informasi yang jelas agar alur data terorganisir.
+   • Validasi: Proses krusial untuk memastikan apakah suatu informasi benar, akurat, dan dapat dipertanggungjawabkan.
+   • Hak Akses: Prinsip bahwa tidak semua informasi bisa diberikan kepada semua orang; harus ada batasan berdasarkan wewenang dan urgensi.
 
 2. Peran Mahasiswa Informatika: Arsitek Hukum Digital
-Informatika bukan sekadar teknis koding, melainkan arsitek dari Digital Sovereignty (Kedaulatan Digital). Sebagai mahasiswa Informatika, kamu memegang peran strategis:
-a. Pengelola Web: Menentukan siapa saja yang berhak mengakses informasi melalui sistem yang dibangun.
-b. Otoritas Tertinggi: Menjadi pihak yang memegang dan menyaring informasi sebelum disampaikan kepada anggota organisasi atau publik.
-c. Krisis Sistemik: Kegagalan dalam menjaga data (seperti kasus kebocoran data jutaan mahasiswa) adalah bukti nyata kegagalan dalam menjalankan fungsi otoritas informasi.`
+   Informatika bukan sekadar teknis koding, melainkan arsitek dari Digital Sovereignty (Kedaulatan Digital). Sebagai mahasiswa Informatika, kamu memegang peran strategis:
+   • Pengelola Web: Menentukan siapa saja yang berhak mengakses informasi melalui sistem yang dibangun.
+   • Otoritas Tertinggi: Menjadi pihak yang memegang dan menyaring informasi sebelum disampaikan kepada anggota organisasi atau publik.
+   • Krisis Sistemik: Kegagalan dalam menjaga data (seperti kasus kebocoran data jutaan mahasiswa) adalah bukti nyata kegagalan dalam menjalankan fungsi otoritas informasi.`
   },
   {
     id: '5',
@@ -184,16 +184,16 @@ c. Krisis Sistemik: Kegagalan dalam menjaga data (seperti kasus kebocoran data j
     content: `Retorika secara etimologi adalah seni berbicara dan menulis secara efektif serta persuasif. Retorika bukan sekadar rangkaian kata-kata, melainkan sebuah strategi komunikasi yang bertujuan untuk memengaruhi audiens melalui penggunaan bahasa yang tepat dan terencana.
 
 1. Tiga Pilar Dasar Retorika (Segitiga Aristoteles)
-Agar sebuah pembicaraan memiliki daya pengaruh yang kuat, diperlukan kombinasi tiga prinsip utama:
-a. Etos (Kredibilitas): Menitikberatkan pada kualitas dan karakter pembicara. Audiens akan lebih percaya jika pembicara memiliki integritas dan keahlian di bidangnya.
-b. Patos (Emosi): Cara menyampaikan informasi dengan menyentuh perasaan audiens, seperti membangkitkan rasa simpati, amarah terhadap ketidakadilan, rasa bangga, hingga semangat perjuangan.
-c. Logos (Logika): Sebuah argumen akan jauh lebih meyakinkan jika masuk akal, memiliki struktur yang kuat, dan berbasis pada data atau fakta yang valid.
+   Agar sebuah pembicaraan memiliki daya pengaruh yang kuat, diperlukan kombinasi tiga prinsip utama:
+   • Etos (Kredibilitas): Menitikberatkan pada kualitas dan karakter pembicara. Audiens akan lebih percaya jika pembicara memiliki integritas dan keahlian di bidangnya.
+   • Patos (Emosi): Cara menyampaikan informasi dengan menyentuh perasaan audiens, seperti membangkitkan rasa simpati, amarah terhadap ketidakadilan, rasa bangga, hingga semangat perjuangan.
+   • Logos (Logika): Sebuah argumen akan jauh lebih meyakinkan jika masuk akal, memiliki struktur yang kuat, dan berbasis pada data atau fakta yang valid.
 
 2. Teknik dan Struktur Berbicara yang Efektif
-Berbicara di depan publik membutuhkan teknik khusus agar pesan tersampaikan dengan hidup:
-a. Storytelling: Menghubungkan audiens melalui faktor emosional melalui narasi atau cerita.
-b. Etika dan Olah Vokal: Memperhatikan bahasa tubuh serta intonasi suara agar argumen yang disampaikan terasa lebih "hidup".
-c. Struktur yang Jelas: Penyampaian harus mengalir secara sistematis, dimulai dari Pembuka yang menarik, Isi yang berbobot, hingga Penutup yang kuat.`
+   Berbicara di depan publik membutuhkan teknik khusus agar pesan tersampaikan dengan hidup:
+   • Storytelling: Menghubungkan audiens melalui faktor emosional melalui narasi atau cerita.
+   • Etika dan Olah Vokal: Memperhatikan bahasa tubuh serta intonasi suara agar argumen yang disampaikan terasa lebih "hidup".
+   • Struktur yang Jelas: Penyampaian harus mengalir secara sistematis, dimulai dari Pembuka yang menarik, Isi yang berbobot, hingga Penutup yang kuat.`
   },
   {
     id: '6',
@@ -203,16 +203,16 @@ c. Struktur yang Jelas: Penyampaian harus mengalir secara sistematis, dimulai da
     content: `Analisa organisasi adalah sebuah proses sistematis untuk memahami kondisi internal dan eksternal suatu organisasi secara mendalam. Tujuannya adalah untuk menemukan akar masalah, memetakan potensi yang belum tergarap, serta menentukan arah perbaikan yang paling efektif.
 
 1. Tujuan Strategis Analisa
-Melakukan analisa bukan sekadar rutinitas, melainkan kebutuhan strategis untuk:
-a. Mengetahui Kondisi Nyata: Mendapatkan gambaran objektif tentang kesehatan organisasi saat ini.
-b. Identifikasi Akar Masalah: Memastikan perbaikan dilakukan pada sumber masalah, bukan sekadar gejalanya.
-c. Mendukung Keputusan Tepat: Mengambil keputusan berdasarkan fakta dan data yang tersedia.
-d. Dasar Perbaikan Strategi: Menjadi fondasi dalam menyusun ulang rencana kerja agar lebih relevan dengan tantangan zaman.
+   Melakukan analisa bukan sekadar rutinitas, melainkan kebutuhan strategis untuk:
+   • Mengetahui Kondisi Nyata: Mendapatkan gambaran objektif tentang kesehatan organisasi saat ini.
+   • Identifikasi Akar Masalah: Memastikan perbaikan dilakukan pada sumber masalah, bukan sekadar gejalanya.
+   • Mendukung Keputusan Tepat: Mengambil keputusan berdasarkan fakta dan data yang tersedia.
+   • Dasar Perbaikan Strategi: Menjadi fondasi dalam menyusun ulang rencana kerja agar lebih relevan dengan tantangan zaman.
 
 2. Ruang Lingkup Analisa
-Analisa yang komprehensif harus menyentuh dua dimensi utama:
-a. Dimensi Internal: Meliputi kualitas Sumber Daya Manusia (SDM), efektivitas struktur organisasi, budaya kerja, serta pola komunikasi antar anggota.
-b. Dimensi Eksternal: Memetakan peluang, tantangan, aturan hukum, kebutuhan lingkungan, serta hubungan antar lembaga.`
+   Analisa yang komprehensif harus menyentuh dua dimensi utama:
+   • Dimensi Internal: Meliputi kualitas Sumber Daya Manusia (SDM), efektivitas struktur organisasi, budaya kerja, serta pola komunikasi antar anggota.
+   • Dimensi Eksternal: Memetakan peluang, tantangan, aturan hukum, kebutuhan lingkungan, serta hubungan antar lembaga.`
   },
   {
     id: '7',
@@ -222,17 +222,17 @@ b. Dimensi Eksternal: Memetakan peluang, tantangan, aturan hukum, kebutuhan ling
     content: `Pembangunan dan pengembangan organisasi adalah sebuah proses terencana dan berkelanjutan yang bertujuan untuk meningkatkan efektivitas organisasi secara menyeluruh. Fokus utamanya terletak pada perbaikan sistem, optimalisasi struktur, penguatan budaya kerja, dan peningkatan kualitas Sumber Daya Manusia (SDM).
 
 1. Tujuan Strategis Pengembangan
-Upaya pengembangan ini diarahkan untuk mencapai beberapa target utama:
-a. Meningkatkan Produktivitas: Menciptakan efisiensi kerja yang lebih tinggi dalam setiap lini organisasi.
-b. Adaptabilitas: Menyesuaikan organisasi dengan perubahan lingkungan eksternal yang dinamis.
-c. Kualitas SDM: Meningkatkan kompetensi anggota serta kapasitas kepemimpinan (leadership) di semua tingkatan.
-d. Budaya Positif: Menciptakan lingkungan dan budaya kerja yang sehat, suportif, dan produktif.
+   Upaya pengembangan ini diarahkan untuk mencapai beberapa target utama:
+   • Meningkatkan Produktivitas: Menciptakan efisiensi kerja yang lebih tinggi dalam setiap lini organisasi.
+   • Adaptabilitas: Menyesuaikan organisasi dengan perubahan lingkungan eksternal yang dinamis.
+   • Kualitas SDM: Meningkatkan kompetensi anggota serta kapasitas kepemimpinan (leadership) di semua tingkatan.
+   • Budaya Positif: Menciptakan lingkungan dan budaya kerja yang sehat, suportif, dan produktif.
 
 2. Ciri-Ciri Perkembangan Organisasi
-Sebuah proses pengembangan dapat dikatakan berhasil jika memiliki karakteristik sebagai berikut:
-a. Berorientasi pada Perubahan Terencana: Perubahan dilakukan secara sengaja dan memiliki arah yang jelas.
-b. Melibatkan Seluruh Anggota: Tidak hanya bersifat top-down, tetapi merangkul seluruh elemen organisasi.
-c. Kolaboratif & Partisipatif: Mengedepankan kerja sama dan keterlibatan aktif dari setiap anggota.`
+   Sebuah proses pengembangan dapat dikatakan berhasil jika memiliki karakteristik sebagai berikut:
+   • Berorientasi pada Perubahan Terencana: Perubahan dilakukan secara sengaja dan memiliki arah yang jelas.
+   • Melibatkan Seluruh Anggota: Tidak hanya bersifat top-down, tetapi merangkul seluruh elemen organisasi.
+   • Kolaboratif & Partisipatif: Mengedepankan kerja sama dan keterlibatan aktif dari setiap anggota.`
   },
   {
     id: '8',
@@ -242,12 +242,12 @@ c. Kolaboratif & Partisipatif: Mengedepankan kerja sama dan keterlibatan aktif d
     content: `Kekeluargaan dalam konteks organisasi bukan sekadar ikatan formal, melainkan kondisi di mana beberapa orang memiliki perasaan emosional yang kuat, rasa kebersamaan, dan kesamaan pola pikir. Kekeluargaan adalah fondasi yang membuat sebuah perkumpulan tidak hanya terasa seperti tempat bekerja, tetapi sebagai "rumah" bagi para anggotanya.
 
 1. Makna Luas Kekeluargaan
-Penting untuk dipahami bahwa kekeluargaan memiliki makna yang sangat luas:
-a. Bukan Sekadar Nama: Kekeluargaan bukan hanya label yang ditempelkan pada sebuah kelompok.
-b. Kepedulian (Care): Makna kekeluargaan yang paling mendasar adalah kesediaan untuk memantau dan mengatur kondisi satu sama lain.
-c. Ikatan Emosional: Orang yang aktif dalam organisasi cenderung lebih terikat secara emosional karena intensitas pertemuan yang tinggi.
+   Penting untuk dipahami bahwa kekeluargaan memiliki makna yang sangat luas:
+   • Bukan Sekadar Nama: Kekeluargaan bukan hanya label yang ditempelkan pada sebuah kelompok.
+   • Kepedulian (Care): Makna kekeluargaan yang paling mendasar adalah kesediaan untuk memantau dan mengatur kondisi satu sama lain.
+   • Ikatan Emosional: Orang yang aktif dalam organisasi cenderung lebih terikat secara emosional karena intensitas pertemuan yang tinggi.
 
 2. Kekuatan Beban yang Sama (Shared Experience)
-Salah satu alasan mengapa rasa kekeluargaan begitu kuat di organisasi adalah karena adanya kesamaan beban. Ketika anggota berbagi cerita dan menghadapi tantangan yang sama, tercipta rasa senasib sepenanggungan. Proses saling berbagi cerita ini memberikan efek relaksasi dan memperkuat solidaritas.`
+   Salah satu alasan mengapa rasa kekeluargaan begitu kuat di organisasi adalah karena adanya kesamaan beban. Ketika anggota berbagi cerita dan menghadapi tantangan yang sama, tercipta rasa senasib sepenanggungan. Proses saling berbagi cerita ini memberikan efek relaksasi dan memperkuat solidaritas.`
   },
 ];

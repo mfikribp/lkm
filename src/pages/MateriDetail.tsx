@@ -1,8 +1,8 @@
+import { AnimatePresence, motion } from 'framer-motion';
+import { ArrowLeft, ArrowRight, BookOpen, Calendar, ChevronLeft, ChevronRight } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { materials } from '../data/data';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Calendar, ArrowLeft, ArrowRight, BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const MateriDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -101,9 +101,9 @@ const MateriDetail: React.FC = () => {
           <div className="prose prose-invert max-w-none">
             {material.content ? (
               material.content.split('\n\n').map((paragraph, index) => (
-                <p key={index} className="text-lg text-[#dde1d2] leading-relaxed mb-6 font-medium">
+                <div key={index} className="text-lg text-[#dde1d2] leading-relaxed mb-6 font-medium whitespace-pre-wrap">
                   {paragraph}
-                </p>
+                </div>
               ))
             ) : (
               <div className="flex flex-col items-center py-12 text-[#b4b8a5]">
