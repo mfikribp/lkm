@@ -33,7 +33,7 @@ export const members: Member[] = [
     role: 'Anggota',
     nim: '257006111165',
     photo: fikriImg,
-    linkedin: 'https://www.linkedin.com/in/muhammad-fikri-biban-putra',
+    linkedin: 'https://www.linkedin.com/in/fikribiban',
   },
   {
     id: '4',
