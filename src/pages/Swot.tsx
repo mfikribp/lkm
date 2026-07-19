@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { TrendingUp, AlertTriangle, Zap, Shield, X, Lightbulb } from 'lucide-react';
+import { TrendingUp, AlertTriangle, Zap, Shield, X, Lightbulb, ChevronRight } from 'lucide-react';
 
 interface SwotPoint {
   head: string;
@@ -164,19 +164,22 @@ const Swot: React.FC = () => {
             </div>
 
             <div className="flex items-center justify-between mb-8">
-              <div className="flex items-center space-x-4">
-                <div className="p-4 bg-white/5 rounded-2xl border border-white/10 group-hover:scale-110 transition-transform duration-500">
+              <div className="flex items-center space-x-3 sm:space-x-4 min-w-0">
+                <div className="p-3 sm:p-4 bg-white/5 rounded-xl sm:rounded-2xl border border-white/10 group-hover:scale-110 transition-transform duration-500 shrink-0">
                   {section.icon}
                 </div>
-                <h2 className="text-3xl font-black uppercase tracking-tighter text-slate-100">
+                <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tighter text-slate-100 truncate">
                   {section.title}
                 </h2>
               </div>
               <motion.div
                 whileHover={{ scale: 1.1 }}
-                className="text-white/20 group-hover:text-white/40 text-[10px] font-bold uppercase tracking-[0.2em]"
+                className="text-white/20 group-hover:text-white/40 shrink-0 ml-4 flex items-center justify-center"
               >
-                Klik Detail
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] hidden sm:inline">
+                  Klik Detail
+                </span>
+                <ChevronRight className="w-5 h-5 sm:hidden" />
               </motion.div>
             </div>
 
